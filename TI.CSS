@@ -1,0 +1,281 @@
+.IMG_REDIRIGIDO > img{
+    border-radius: 50%;
+    width:40px ;
+    height:40px ;
+    position: relative;
+    top: 30px;  
+    left: 20px;
+    background-color: rgb(205, 26, 50);
+    border: 3px solid #000;
+}
+.IMG_REDIRIGIDO{
+    border: 3px solid #000;
+    display: contents;
+
+}
+.redireccion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Esto alinea los elementos al inicio del eje principal (verticalmente) */
+    gap: 10px; /* Espacio entre los elementos, ajusta según sea necesario */
+    position: absolute;
+    top: 175px; /* Ajusta según sea necesario */
+}
+img{
+    max-width: 100%;
+}
+header{
+background-color: rgb(205, 26, 50);
+padding: 0;
+position: relative;
+
+}
+.header {
+    background-color: #a80f36;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    
+}
+.header nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-top: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    
+}
+.header nav a:hover{
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    background-color: #25b47f;
+    color: #fff;
+}
+.header nav img{
+    max-width: 200px;
+    max-height: 100px;
+    left: 50px;
+    
+}
+body{
+    
+    font-family: Arial, sans-serif;
+    color: rgb(51, 51, 51); /* Color de texto principal */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Altura mínima igual a la altura de la ventana */
+
+    
+}
+
+.watermark {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* Asegura que la imagen ocupe toda la pantalla */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Establece la imagen de fondo y ajusta el tamaño */
+    background-image: url('/TAREA/Imagenes/TI.jpg');
+    background-size: cover;
+    background-position: center;
+    /* Opcional: añade otros estilos según tus necesidades */
+
+
+}
+.TEMA{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    width: min(100%, 450px);
+    height: 30px;
+    top: 30px;
+    left: 200px;
+    padding: 20px 15px;
+    background:#25b47f;
+    box-shadow:  0px 7px 10px rgba(0,0,0,0.5);
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border: 3px solid;
+}
+.TEMA02{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    width: min(100%, 450px);
+    height: 30px;
+    top: -155px;
+    left: 200px;
+    padding: 20px 15px;
+    background:#25b47f;
+    box-shadow:  0px 7px 10px rgba(0,0,0,0.5);
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border: 3px solid;
+}
+.recuadro{
+    position: relative;
+    flex-direction: column;
+    width: min(100%, 500px);
+    height: auto;
+    top: 30px;
+    left: 200px;
+    padding: 5px 25px;
+    background-color: rgb(179, 65, 99);
+    box-shadow:  0px 7px 10px rgba(0,0,0,0.5);
+    border-radius: 30px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #fff;
+    line-height: 1;
+    opacity: 0.7;
+    border: 3px solid;
+}
+.recuadro1{
+    position: relative;
+    flex-direction: column;
+    width: min(100%, 500px);
+    height: auto;
+    top: -150px;
+    left: 200px;
+    padding: 5px 25px;
+    background-color: rgb(179, 65, 99);
+    box-shadow:  0px 7px 10px rgba(0,0,0,0.5);
+    border-radius: 30px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #fff;
+    line-height: 1;
+    opacity: 0.7;
+    border: 3px solid;
+}
+.TEMA1{
+    position: relative;
+    width: min(100%, 400px);
+    height: 100spx;
+    padding: 5px 10px;
+    background-color: rgb(179, 65, 99);
+    box-shadow:  0px 7px 10px rgba(0,0,0,0.5);
+    border-radius: 30px;
+    color: #fff;
+    line-height: 1;
+    margin-left: 900px;
+    top: -250px;
+    opacity: 0.7;
+    border: 3px solid;
+    
+}
+.TEMA2{
+  
+    position: relative;
+    width: min(100%, 400px);
+    height: 30px;
+    top: -240px;
+    padding: 5px 25px;
+    background-color: rgb(179, 65, 99);
+    box-shadow:  0px 7px 10px rgba(0,0,0,0.5);
+    border-radius: 30px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #fff;
+    line-height: 1;
+    opacity: 0.7;
+    margin-left: 900px;
+    border: 3px solid;
+}
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-horizontal > li {
+    position: relative; /* Necesario para el menú desplegable */
+}
+
+.menu-horizontal > li > a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    
+}
+
+.menu-vertical {
+    position: absolute; /* Necesario para el menú desplegable */
+    top: 100%; /* Ajuste para desplegar hacia abajo */
+    left: 0;
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    background-color: #a80f36;
+    z-index: 1000; /* Asegura que el menú esté sobre el contenido de la página */
+}
+
+.menu-horizontal li:hover .menu-vertical {
+    display: block;
+}
+
+.menu-vertical li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu-vertical li a:hover {
+    background-color: #25b47f;
+}
+
+@media (max-width: 768px) {
+    .header nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .content {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .TEMA,.TEMA1,.TEMA2 {
+        width: 90%;
+        left: 0 !important;
+        top: 0 !important;
+        margin: 10px auto;
+    }
+    .recuadro {
+        left: 0 !important;
+        top: 0 !important;
+        width: 90%;
+        margin: 10px auto;
+    }
+    .redireccion{
+        left: 0 !important;
+        top: 0 !important;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        margin: 20px 0;
+    }
+}
+
